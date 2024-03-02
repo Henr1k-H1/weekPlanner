@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF50C24129FACE1200F9DDC7 /* Week_PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50C24029FACE1200F9DDC7 /* Week_PlannerApp.swift */; };
+		AF50C24329FACE1200F9DDC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50C24229FACE1200F9DDC7 /* ContentView.swift */; };
+		AF50C24529FACE1300F9DDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF50C24429FACE1300F9DDC7 /* Assets.xcassets */; };
+		AF50C24829FACE1300F9DDC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF50C24729FACE1300F9DDC7 /* Preview Assets.xcassets */; };
+		AF50C24A29FACE1300F9DDC7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50C24929FACE1300F9DDC7 /* Persistence.swift */; };
+		AF50C24D29FACE1300F9DDC7 /* Week_Planner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF50C24B29FACE1300F9DDC7 /* Week_Planner.xcdatamodeld */; };
+		AF50C25A29FACE2D00F9DDC7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF50C25929FACE2D00F9DDC7 /* WidgetKit.framework */; };
+		AF50C25C29FACE2D00F9DDC7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF50C25B29FACE2D00F9DDC7 /* SwiftUI.framework */; };
+		AF50C25F29FACE2D00F9DDC7 /* Week_Planner_WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50C25E29FACE2D00F9DDC7 /* Week_Planner_WidgetBundle.swift */; };
+		AF50C26129FACE2D00F9DDC7 /* Week_Planner_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50C26029FACE2D00F9DDC7 /* Week_Planner_Widget.swift */; };
+		AF50C26329FACE2D00F9DDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF50C26229FACE2D00F9DDC7 /* Assets.xcassets */; };
+		AF50C26729FACE2D00F9DDC7 /* Week Planner WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AF50C25729FACE2D00F9DDC7 /* Week Planner WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AF50C27429FACEFE00F9DDC7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50C26C29FACEFE00F9DDC7 /* Home.swift */; };
+		AF50C27529FACEFE00F9DDC7 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50C26D29FACEFE00F9DDC7 /* Day.swift */; };
+		AF50C27729FACEFE00F9DDC7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50C27029FACEFE00F9DDC7 /* Persistence.swift */; };
+		AF50C27829FACEFE00F9DDC7 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50C27129FACEFE00F9DDC7 /* CustomColor.swift */; };
+		AF50C27929FACEFE00F9DDC7 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50C27229FACEFE00F9DDC7 /* TaskList.swift */; };
+		AF50C27A29FACEFE00F9DDC7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50C27329FACEFE00F9DDC7 /* Extensions.swift */; };
+		AF50C27D29FACFA000F9DDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF50C24429FACE1300F9DDC7 /* Assets.xcassets */; };
+		AF50C27E29FACFA400F9DDC7 /* Week_Planner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF50C24B29FACE1300F9DDC7 /* Week_Planner.xcdatamodeld */; };
+		AF50C27F29FACFA700F9DDC7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50C27029FACEFE00F9DDC7 /* Persistence.swift */; };
+		AF50C28429FAD10400F9DDC7 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50C26D29FACEFE00F9DDC7 /* Day.swift */; };
+		AF50C28529FAD10E00F9DDC7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50C27329FACEFE00F9DDC7 /* Extensions.swift */; };
+		AF50C28629FAD11400F9DDC7 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF50C27129FACEFE00F9DDC7 /* CustomColor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF50C26529FACE2D00F9DDC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF50C23529FACE1200F9DDC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF50C25629FACE2D00F9DDC7;
+			remoteInfo = "Week Planner WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF50C26B29FACE2D00F9DDC7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AF50C26729FACE2D00F9DDC7 /* Week Planner WidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF50C23D29FACE1200F9DDC7 /* Week Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF50C24029FACE1200F9DDC7 /* Week_PlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week_PlannerApp.swift; sourceTree = "<group>"; };
+		AF50C24229FACE1200F9DDC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF50C24429FACE1300F9DDC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF50C24729FACE1300F9DDC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF50C24929FACE1300F9DDC7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AF50C24C29FACE1300F9DDC7 /* Week_Planner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Week_Planner.xcdatamodel; sourceTree = "<group>"; };
+		AF50C25729FACE2D00F9DDC7 /* Week Planner WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Week Planner WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF50C25929FACE2D00F9DDC7 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		AF50C25B29FACE2D00F9DDC7 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		AF50C25E29FACE2D00F9DDC7 /* Week_Planner_WidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week_Planner_WidgetBundle.swift; sourceTree = "<group>"; };
+		AF50C26029FACE2D00F9DDC7 /* Week_Planner_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week_Planner_Widget.swift; sourceTree = "<group>"; };
+		AF50C26229FACE2D00F9DDC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF50C26429FACE2D00F9DDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF50C26C29FACEFE00F9DDC7 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AF50C26D29FACEFE00F9DDC7 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		AF50C27029FACEFE00F9DDC7 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AF50C27129FACEFE00F9DDC7 /* CustomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		AF50C27229FACEFE00F9DDC7 /* TaskList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
+		AF50C27329FACEFE00F9DDC7 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AF50C27B29FACF6300F9DDC7 /* Week Planner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Week Planner.entitlements"; sourceTree = "<group>"; };
+		AF50C27C29FACF8100F9DDC7 /* Week Planner WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Week Planner WidgetExtension.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF50C23A29FACE1200F9DDC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF50C25429FACE2D00F9DDC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF50C25C29FACE2D00F9DDC7 /* SwiftUI.framework in Frameworks */,
+				AF50C25A29FACE2D00F9DDC7 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF50C23429FACE1200F9DDC7 = {
+			isa = PBXGroup;
+			children = (
+				AF50C27C29FACF8100F9DDC7 /* Week Planner WidgetExtension.entitlements */,
+				AF50C23F29FACE1200F9DDC7 /* Week Planner */,
+				AF50C25D29FACE2D00F9DDC7 /* Week Planner Widget */,
+				AF50C25829FACE2D00F9DDC7 /* Frameworks */,
+				AF50C23E29FACE1200F9DDC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF50C23E29FACE1200F9DDC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF50C23D29FACE1200F9DDC7 /* Week Planner.app */,
+				AF50C25729FACE2D00F9DDC7 /* Week Planner WidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF50C23F29FACE1200F9DDC7 /* Week Planner */ = {
+			isa = PBXGroup;
+			children = (
+				AF50C27B29FACF6300F9DDC7 /* Week Planner.entitlements */,
+				AF50C24029FACE1200F9DDC7 /* Week_PlannerApp.swift */,
+				AF50C24229FACE1200F9DDC7 /* ContentView.swift */,
+				AF50C24429FACE1300F9DDC7 /* Assets.xcassets */,
+				AF50C24929FACE1300F9DDC7 /* Persistence.swift */,
+				AF50C27129FACEFE00F9DDC7 /* CustomColor.swift */,
+				AF50C26D29FACEFE00F9DDC7 /* Day.swift */,
+				AF50C27329FACEFE00F9DDC7 /* Extensions.swift */,
+				AF50C26C29FACEFE00F9DDC7 /* Home.swift */,
+				AF50C27029FACEFE00F9DDC7 /* Persistence.swift */,
+				AF50C27229FACEFE00F9DDC7 /* TaskList.swift */,
+				AF50C24B29FACE1300F9DDC7 /* Week_Planner.xcdatamodeld */,
+				AF50C24629FACE1300F9DDC7 /* Preview Content */,
+			);
+			path = "Week Planner";
+			sourceTree = "<group>";
+		};
+		AF50C24629FACE1300F9DDC7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF50C24729FACE1300F9DDC7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF50C25829FACE2D00F9DDC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF50C25929FACE2D00F9DDC7 /* WidgetKit.framework */,
+				AF50C25B29FACE2D00F9DDC7 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF50C25D29FACE2D00F9DDC7 /* Week Planner Widget */ = {
+			isa = PBXGroup;
+			children = (
+				AF50C25E29FACE2D00F9DDC7 /* Week_Planner_WidgetBundle.swift */,
+				AF50C26029FACE2D00F9DDC7 /* Week_Planner_Widget.swift */,
+				AF50C26229FACE2D00F9DDC7 /* Assets.xcassets */,
+				AF50C26429FACE2D00F9DDC7 /* Info.plist */,
+			);
+			path = "Week Planner Widget";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF50C23C29FACE1200F9DDC7 /* Week Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF50C25029FACE1300F9DDC7 /* Build configuration list for PBXNativeTarget "Week Planner" */;
+			buildPhases = (
+				AF50C23929FACE1200F9DDC7 /* Sources */,
+				AF50C23A29FACE1200F9DDC7 /* Frameworks */,
+				AF50C23B29FACE1200F9DDC7 /* Resources */,
+				AF50C26B29FACE2D00F9DDC7 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF50C26629FACE2D00F9DDC7 /* PBXTargetDependency */,
+			);
+			name = "Week Planner";
+			productName = "Week Planner";
+			productReference = AF50C23D29FACE1200F9DDC7 /* Week Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF50C25629FACE2D00F9DDC7 /* Week Planner WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF50C26829FACE2D00F9DDC7 /* Build configuration list for PBXNativeTarget "Week Planner WidgetExtension" */;
+			buildPhases = (
+				AF50C25329FACE2D00F9DDC7 /* Sources */,
+				AF50C25429FACE2D00F9DDC7 /* Frameworks */,
+				AF50C25529FACE2D00F9DDC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Week Planner WidgetExtension";
+			productName = "Week Planner WidgetExtension";
+			productReference = AF50C25729FACE2D00F9DDC7 /* Week Planner WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF50C23529FACE1200F9DDC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AF50C23C29FACE1200F9DDC7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					AF50C25629FACE2D00F9DDC7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = AF50C23829FACE1200F9DDC7 /* Build configuration list for PBXProject "Week Planner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF50C23429FACE1200F9DDC7;
+			productRefGroup = AF50C23E29FACE1200F9DDC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF50C23C29FACE1200F9DDC7 /* Week Planner */,
+				AF50C25629FACE2D00F9DDC7 /* Week Planner WidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF50C23B29FACE1200F9DDC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF50C24829FACE1300F9DDC7 /* Preview Assets.xcassets in Resources */,
+				AF50C24529FACE1300F9DDC7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF50C25529FACE2D00F9DDC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF50C27D29FACFA000F9DDC7 /* Assets.xcassets in Resources */,
+				AF50C26329FACE2D00F9DDC7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF50C23929FACE1200F9DDC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF50C24D29FACE1300F9DDC7 /* Week_Planner.xcdatamodeld in Sources */,
+				AF50C27729FACEFE00F9DDC7 /* Persistence.swift in Sources */,
+				AF50C27829FACEFE00F9DDC7 /* CustomColor.swift in Sources */,
+				AF50C24A29FACE1300F9DDC7 /* Persistence.swift in Sources */,
+				AF50C27529FACEFE00F9DDC7 /* Day.swift in Sources */,
+				AF50C27429FACEFE00F9DDC7 /* Home.swift in Sources */,
+				AF50C27929FACEFE00F9DDC7 /* TaskList.swift in Sources */,
+				AF50C24329FACE1200F9DDC7 /* ContentView.swift in Sources */,
+				AF50C27A29FACEFE00F9DDC7 /* Extensions.swift in Sources */,
+				AF50C24129FACE1200F9DDC7 /* Week_PlannerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF50C25329FACE2D00F9DDC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF50C26129FACE2D00F9DDC7 /* Week_Planner_Widget.swift in Sources */,
+				AF50C28629FAD11400F9DDC7 /* CustomColor.swift in Sources */,
+				AF50C28529FAD10E00F9DDC7 /* Extensions.swift in Sources */,
+				AF50C27F29FACFA700F9DDC7 /* Persistence.swift in Sources */,
+				AF50C25F29FACE2D00F9DDC7 /* Week_Planner_WidgetBundle.swift in Sources */,
+				AF50C28429FAD10400F9DDC7 /* Day.swift in Sources */,
+				AF50C27E29FACFA400F9DDC7 /* Week_Planner.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF50C26629FACE2D00F9DDC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF50C25629FACE2D00F9DDC7 /* Week Planner WidgetExtension */;
+			targetProxy = AF50C26529FACE2D00F9DDC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF50C24E29FACE1300F9DDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF50C24F29FACE1300F9DDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF50C25129FACE1300F9DDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Week Planner/Week Planner.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Week Planner/Preview Content\"";
+				DEVELOPMENT_TEAM = NM9ZXHF2H4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "henr1k.com.Week-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF50C25229FACE1300F9DDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Week Planner/Week Planner.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Week Planner/Preview Content\"";
+				DEVELOPMENT_TEAM = NM9ZXHF2H4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "henr1k.com.Week-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF50C26929FACE2D00F9DDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Week Planner WidgetExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NM9ZXHF2H4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Week Planner Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Week Planner Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "henr1k.com.Week-Planner.Week-Planner-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF50C26A29FACE2D00F9DDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Week Planner WidgetExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NM9ZXHF2H4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Week Planner Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Week Planner Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "henr1k.com.Week-Planner.Week-Planner-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF50C23829FACE1200F9DDC7 /* Build configuration list for PBXProject "Week Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF50C24E29FACE1300F9DDC7 /* Debug */,
+				AF50C24F29FACE1300F9DDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF50C25029FACE1300F9DDC7 /* Build configuration list for PBXNativeTarget "Week Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF50C25129FACE1300F9DDC7 /* Debug */,
+				AF50C25229FACE1300F9DDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF50C26829FACE2D00F9DDC7 /* Build configuration list for PBXNativeTarget "Week Planner WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF50C26929FACE2D00F9DDC7 /* Debug */,
+				AF50C26A29FACE2D00F9DDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF50C24B29FACE1300F9DDC7 /* Week_Planner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF50C24C29FACE1300F9DDC7 /* Week_Planner.xcdatamodel */,
+			);
+			currentVersion = AF50C24C29FACE1300F9DDC7 /* Week_Planner.xcdatamodel */;
+			path = Week_Planner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AF50C23529FACE1200F9DDC7 /* Project object */;
+}
