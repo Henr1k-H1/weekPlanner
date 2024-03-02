@@ -26,7 +26,7 @@ The concrete example was to create a workout schedule with rest days and non-rep
 - <a href="https://developer.apple.com/documentation/coredata/" target="_blank">Apple Core Data</a>
 
 ## Author
-- <a href="https://henr1k.com/" target="_blank">Henrik "Henr1k"</a>
+- <a href="https://henr1k.com/" target="_blank">Henr1k</a>
 
 ## License
 This project is released under [MIT License](LICENSE).
