@@ -2,7 +2,7 @@
 //  Week_PlannerApp.swift
 //  Week Planner
 //
-//  Created by Henrik Scharm on 4/27/23.
+//  Created by Henrik "Henr1k" on 4/27/23.
 //
 
 import SwiftUI
