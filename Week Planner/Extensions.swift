@@ -2,7 +2,7 @@
 //  Extensions.swift
 //  Week Plan
 //
-//  Created by Henrik Scharm on 4/25/23.
+//  Created by Henrik "Henr1k" on 4/25/23.
 //
 
 import Foundation
