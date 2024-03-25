@@ -2,7 +2,7 @@
 //  Home.swift
 //  trainingPlan
 //
-//  Created by Henrik Scharm on 4/17/23.
+//  Created by Henrik "Henr1k" on 4/17/23.
 //
 
 import SwiftUI
